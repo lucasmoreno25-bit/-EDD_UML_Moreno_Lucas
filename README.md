@@ -40,7 +40,7 @@ La especificación oficial define los diagramas de actividad y sus nodos de cont
 
   **Imagen Draw io:**
 
-  ![][image1]
+  ![Imagen de Draw io][image1]
 
 **Webgrafía:**
 
