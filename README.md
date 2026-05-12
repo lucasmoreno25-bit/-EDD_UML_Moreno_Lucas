@@ -4,6 +4,11 @@
 
 # **1\. Investigación** 
 
+El proceso modelado representa el flujo de compra en un sistema de e-commerce.
+
+ El usuario selecciona productos, realiza el pago y el sistema valida la información de compra.  
+ Se utilizan Decision Nodes para determinar si el pago fue aprobado o rechazado y mediante Fork Nodes, el sistema ejecuta procesos paralelos como la actualización del inventario y el envío de la confirmación por correo.
+
 En omg
 
 Dentro de la página:
@@ -26,17 +31,21 @@ La especificación oficial define los diagramas de actividad y sus nodos de cont
 
 **En paradigm:**
 
-* el **Decision Node** se usa para bifurcar el flujo según condiciones.
+* el **Decision Node** se usa para bifurcar el flujo según condiciones;  
 * el **Fork Node** se utiliza para representar concurrencia o paralelismo.  
-    
+  —------------------------------------------------------------------------------------------------  
+  **Se utilizaron Fork Nodes** porque después de aprobar el pago, el sistema debe ejecutar simultáneamente varias tareas independientes, como actualizar el inventario y enviar la confirmación al cliente.
+
+   **Los Decision Nodes** se emplearon para modelar condiciones lógicas, como la validación del pago, donde únicamente puede continuar un flujo dependiendo del resultado obtenido.
+
+
   
 
+**Webgrafía:**
 
-**Bibliografía:**
+\[1\] Object Management Group, “OMG Unified Modeling Language (OMG UML), Version 2.5.1,” Dec. 2017\. \[Online\]. Disponible: [https://www.omg.org/spec/UML/](https://www.omg.org/spec/UML/)\[Accedido: 12-May-2026\].
 
-[OMG – UML 2.5 Specification](https://www.omg.org/spec/UML/2.5/?utm_source=chatgpt.com)
+\[2\] IBM, “Control nodes in UML activity diagrams.” \[Online\].Disponible:[https://www.ibm.com/docs/en/rhapsody/9.0.1?topic=diagrams-uml-activity](https://www.ibm.com/docs/en/rhapsody/9.0.1?topic=diagrams-uml-activity) \[Accessed: 12-May-2026\].
 
-[IBM – Control nodes in activity diagrams](https://www.ibm.com/docs/en/dma?topic=diagrams-control-nodes&utm_source=chatgpt.com)
-
-[Paradigm Decision\_fork\_node](https://www.visual-paradigm.com/guide/uml/what-is-activity-diagram/.)
+\[3\] Visual Paradigm, “Decision Node vs Fork Node in Activity Diagram.” \[Online\]. Disponible[https://www.visual-paradigm.com/guide/uml/what-is-activity-diagram/](https://www.visual-paradigm.com/guide/uml/what-is-activity-diagram/):. \[Accedido: 12-May-2026\].
 
