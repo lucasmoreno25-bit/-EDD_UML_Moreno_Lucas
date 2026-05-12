@@ -26,7 +26,7 @@ La especificación oficial define los diagramas de actividad y sus nodos de cont
 
 **En paradigm:**
 
-* el **Decision Node** se usa para bifurcar el flujo según condiciones;  
+* el **Decision Node** se usa para bifurcar el flujo según condiciones.
 * el **Fork Node** se utiliza para representar concurrencia o paralelismo.  
     
   
