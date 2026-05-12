@@ -34,7 +34,7 @@ La especificación oficial define los diagramas de actividad y sus nodos de cont
 * el **Decision Node** se usa para bifurcar el flujo según condiciones;  
 * el **Fork Node** se utiliza para representar concurrencia o paralelismo.  
   —------------------------------------------------------------------------------------------------  
-  **Se utilizaron Fork Nodes** porque después de aprobar el pago, el sistema debe ejecutar simultáneamente varias tareas independientes, como actualizar el inventario y enviar la confirmación al cliente.
+  **Se utilizaron Fork Nodes** porque después de aprobar el pago el sistema debe ejecutar simultáneamente varias tareas independientes, como actualizar el inventario y enviar la confirmación al cliente.
 
    **Los Decision Nodes** se emplearon para modelar condiciones lógicas, como la validación del pago, donde únicamente puede continuar un flujo dependiendo del resultado obtenido.
 
